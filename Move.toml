@@ -1,11 +1,14 @@
 [package]
 name = "TypusFramework"
 version = "0.0.1"
+published-at = "0xad70e60e8631f45b6c528bdf054a733c57d6e979bc601b2b8d1c10ce12d39866"
 
 [dependencies.Sui]
 git = "https://github.com/MystenLabs/sui.git"
 subdir = "crates/sui-framework/packages/sui-framework"
-rev = "main"
+rev = "mainnet"
 
 [addresses]
-typus_framework = "0x0"
+typus_framework = "0xad70e60e8631f45b6c528bdf054a733c57d6e979bc601b2b8d1c10ce12d39866"
+
+# UpgradeCap: 0x92f2276304afd63950cce344a265cbfbb00a0dd66d7220edf83de19d5998f0d0
